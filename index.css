@@ -1,1 +1,31 @@
 /* font-family: 'Cookie', cursive; */
+.card {
+    transition: all 400ms ease;   
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+.card .card-title{
+    padding: 15px;
+    text-align: center;
+}
+.card .a{
+    text-align: center;
+}
+.h1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255); 
+    font-size: 50px;
+}
+.ranking {
+    display: flex;
+    justify-content: center;
+    color:rgb(168, 162, 255); 
+    font-size: 30px;
+}
